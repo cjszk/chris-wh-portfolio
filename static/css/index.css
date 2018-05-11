@@ -321,6 +321,8 @@ a {
       color: #999; }
     .projects__flow-tools__image {
       width: 75%; }
+    .projects__flow-tools__description {
+      font-family: 'Neucha', cursive; }
     .projects__flow-tools__tech-used {
       margin-top: 1rem; }
     .projects__flow-tools__why {
@@ -337,6 +339,8 @@ a {
       color: #999; }
     .projects__macronator__image {
       width: 75%; }
+    .projects__macronator__description {
+      font-family: 'Neucha', cursive; }
     .projects__macronator__tech-used {
       margin-top: 1rem; }
     .projects__macronator__why {
