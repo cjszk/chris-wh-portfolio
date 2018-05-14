@@ -50,7 +50,7 @@ body {
     font-family: 'Ubuntu Condensed', sans-serif; }
 
 a {
-  color: #B82601; }
+  color: #00cf80; }
 
 .anchor {
   font-size: 1.5rem;
@@ -293,13 +293,13 @@ a {
     text-decoration: underline;
     font-size: 2.5rem; }
   .about-me__programmer__paragraph {
-    font-family: 'Neucha', cursive; }
+    font-family: 'Abel', cursive; }
   .about-me__personal__header {
     font-weight: bold;
     text-decoration: underline;
     font-size: 2.5rem; }
   .about-me__personal__paragraph {
-    font-family: 'Neucha', cursive; }
+    font-family: 'Abel', cursive; }
 
 .projects {
   font-size: 2rem;
@@ -322,12 +322,13 @@ a {
     .projects__flow-tools__image {
       width: 75%; }
     .projects__flow-tools__description {
-      font-family: 'Neucha', cursive; }
+      font-family: 'Abel', cursive; }
     .projects__flow-tools__tech-used {
       margin-top: 1rem; }
     .projects__flow-tools__why {
-      font-size: 1.5rem;
-      color: #813772; }
+      font-family: 'Abel', cursive;
+      font-size: 2rem;
+      color: #b2cce5; }
     .projects__flow-tools__github {
       opacity: .8; }
   .projects__macronator {
@@ -340,11 +341,12 @@ a {
     .projects__macronator__image {
       width: 75%; }
     .projects__macronator__description {
-      font-family: 'Neucha', cursive; }
+      font-family: 'Abel', cursive; }
     .projects__macronator__tech-used {
       margin-top: 1rem; }
     .projects__macronator__why {
-      font-size: 1.5rem;
-      color: #813772; }
+      font-family: 'Abel', cursive;
+      font-size: 2rem;
+      color: #b2cce5; }
     .projects__macronator__github {
       opacity: .8; }
