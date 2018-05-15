@@ -220,7 +220,12 @@
             </div>
         </div>
     </section>
-    
+    <script>
+        var host = "www.chris-whiteman.com";
+        if ((host == window.location.host) && (window.location.protocol != "https:")){
+        window.location.protocol = "https";
+        }
+        </script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
   </body>
 </html>
