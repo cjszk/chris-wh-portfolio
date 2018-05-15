@@ -350,3 +350,22 @@ a {
       color: #b2cce5; }
     .projects__macronator__github {
       opacity: .8; }
+  .projects__bookmarks {
+    padding: 1rem;
+    border: 1px solid black;
+    background-image: linear-gradient(to left, rgba(6, 47, 79, 0.8), rgba(6, 47, 79, 0.8)); }
+    .projects__bookmarks__header {
+      padding-bottom: 1rem;
+      color: #999; }
+    .projects__bookmarks__image {
+      width: 75%; }
+    .projects__bookmarks__description {
+      font-family: 'Abel', cursive; }
+    .projects__bookmarks__tech-used {
+      margin-top: 1rem; }
+    .projects__bookmarks__why {
+      font-family: 'Abel', cursive;
+      font-size: 2rem;
+      color: #b2cce5; }
+    .projects__bookmarks__github {
+      opacity: .8; }
