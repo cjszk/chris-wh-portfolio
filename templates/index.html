@@ -6,226 +6,129 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Chris Web Portfolio</title>
+    <title>Chris Whiteman Portfolio</title>
   </head>
   <body>
-    <link rel="stylesheet" href="../static/css/index.css">
-    <link href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu+Condensed|Abel" rel="stylesheet">
-    <section class="anchor">
-        <div class="anchor__block anchor__me">
-            <h1 class="anchor__name">Christopher Whiteman</h1>
-            <h2 class="anchor__job-title">Full Stack Web Developer</h2>
-            <img class="anchor__photo" src="../static/images/self.jpg" alt="Christopher Whiteman">
-        </div>
-        <div class="anchor__block anchor__my-tech">
-            <h2 class="anchor__my-tech__header">My Stacks</h2>
-            <ul class="anchor__my-tech__ul">
-                <li class="anchor__my-tech__li">
-                    <p class="anchor__my-tech__tech">HTML</p>
-                    <span class="anchor__my-tech__html-bar proficient">Proficient</span>
-                </li>
-                <li class="anchor__my-tech__li">
-                    <p class="anchor__my-tech__tech">CSS/SASS</p>
-                    <span class="anchor__my-tech__css-bar proficient">Proficient</span>
-                </li>
-                <li class="anchor__my-tech__li">
-                    <p class="anchor__my-tech__tech">Javascript</p>
-                    <span class="anchor__my-tech__javascript-bar proficient">Proficient</span>
-                    <span class="anchor__my-tech__javascript-tech">Node/Express, React, JQuery</span>
-                </li>
-                <li class="anchor__my-tech__li">
-                    <p class="anchor__my-tech__tech">Python</p>
-                    <span class="anchor__my-tech__python-bar intermediate">Intermediate</span>
-                    <span class="anchor__my-tech__python-tech">Flask</span>
-                </li>
-                <li class="anchor__my-tech__li anchor__my-tech__database-tech-li">
-                    <p class="anchor__my-tech__database-tech">Database Technologies</p>
-                    <p class="anchor__my-tech__database-tech-list">MongoDB, PostgreSQL</p>
-                </li>
+    <link rel="stylesheet" href="styles/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo|Carter+One|Prosto+One|Secular+One" rel="stylesheet">
+
+    <nav class="nav">
+        <a class="nav__button">About Me</a>
+        <a class="nav__button">Projects</a>
+        <a class="nav__button">Contact</a>
+    </nav>
+    <section class="cover">
+        <h1 class="cover__name">Christopher Whiteman</h1>
+        <h2 class="cover__header">Full Stack Web Development</h2>
+        <video class="cover__video" autoplay muted loop>
+            <source src="styles/images/MP4/Hello-World.mp4" type="video/mp4">                
+            <!-- <source src="styles/images/WEBM/City-Nights.webm" type"video/webm"> -->
+            Your browser is not supported!
+        </video>
+    </section>
+    <section class="about">
+        <img class="about__image" src="styles/images/self.jpg">        
+        <p class="about__first">Full Stack JavaScript and more!</p>
+        <p class="about__second">
+        I believe in striving to be a "T-shaped" developer: not only a master at one thing,
+        but also adept in many other areas. I specialize in full-stack JavaScript, but also have a passion for Python.
+        My hobbies outside of programming include reading, exercising and watching youtube videos.
+        </p>
+    </section>
+    <section class="skills">
+        <div class="skills__block skills__languages">
+            <h3 class="skills__title">Programming</h3>
+            <ul class="skills__languages__ul">
+                <li class="skills__languages__li">JavaScript</li>
+                <li class="skills__languages__li">Python</li>
+                <li class="skills__languages__li">HTML & CSS</li>
             </ul>
         </div>
-        <div class="anchor__block anchor__currently-learning">
-            <h2 class="anchor__currently-learning__header">Currently Learning</h2>
-            <ul class="anchor__currently-learning__ul">
-                <li class="anchor__currently-learning__li">
-                    <p class="anchor__currently-learning__tech">Python: <span class="small">Django</span></p>
-                    <span class="anchor__currently-learning__python-bar">Intermediate</span>
-                    <span class="anchor__currently-learning__python-tech"></span>
-                </li>
-                <!-- <li class="anchor__currently-learning__li">
-                    <p class="anchor__currently-learning__tech">C#/.NET</p>
-                    <span class="anchor__currently-learning__c-sharp-bar">Novice</span>
-                    <span class="anchor__currently-learning__c-sharp-tech"></span>
-                </li> -->
+        <div class="skills__block skills__front-end-frameworks">
+            <h3 class="skills__title">Front End</h3>
+            <ul class="skills__front-end-frameworks__ul">
+                <li class="skills__front-end-frameworks__li">React</li>
+                <li class="skills__front-end-frameworks__li">React Native</li>
+                <li class="skills__front-end-frameworks__li">jQuery</li>
+                <li class="skills__front-end-frameworks__li">SASS/SCSS</li>
             </ul>
         </div>
-        <div class="anchor__block anchor__contact-info">
-            <h2 class="anchor__contact-info__header">Contact Information</h2>
-            <p class="anchor__contact-info__phone">1-360-359-3423</p>
-            <a href="#" class-"anchor__contact-info__email">cjszk@hotmail.com</a>
+        <div class="skills__block skills__back-end-frameworks">
+            <h3 class="skills__title">Back End</h3>
+            <ul class="skills__back-end-frameworks__ul">
+                <li class="skills__back-end-frameworks__li">Node.js/Express</li>
+                <li class="skills__back-end-frameworks__li">Flask</li>
+            </ul>
         </div>
-        <div class="anchor__block anchor__links">
-            <h2 class="anchor__links__header">Links</h2>
-            <a href="https://github.com/cjszk" target="__blank" class="anchor__links__link anchor__links__github">Github</a>
-            <a href="https://www.linkedin.com/in/christopher-whiteman-474a89162/" target="__blank" class="anchor__links__link anchor__links__linkedin">LinkedIn</a>
-            <a href="https://codepen.io/cjszk/" target="__blank" class="anchor__links__link anchor__links__codepen">Codepen</a>
+        <div class="skills__block skills__database-technologies">
+            <h3 class="skills__title">Databases</h3>
+            <ul class="skills__database-technologies__ul">
+                <li class="skills__database-technologies__li">PostgreSQL</li>
+                <li class="skills__database-technologies__li">MongoDB</li>
+            </ul>
         </div>
     </section>
-
-    <section class="mobile-anchor">
-            <div class="mobile-anchor__contact-info">
-                <p class="mobile-anchor__contact-info__phone">1-360-359-3423</p>
-                <a href="#" class-"mobile-anchor__contact-info__email">cjszk@hotmail.com</a>
-            </div>
-            <div class="mobile-anchor__block mobile-anchor__me">
-                <h1 class="mobile-anchor__name">Christopher Whiteman</h1>
-                <h2 class="mobile-anchor__job-title">Full Stack Web Developer</h2>
-                <img class="anchor__photo" src="../static/images/self.jpg" alt="Christopher Whiteman">
-            </div>
-            <div class="mobile-anchor__block mobile-anchor__my-tech">
-                <h2 class="mobile-anchor__my-tech__header">My Stacks</h2>
-                <ul class="mobile-anchor__my-tech__ul">
-                    <li class="mobile-anchor__my-tech__li">
-                        <p class="mobile-anchor__my-tech__tech">HTML</p>
-                        <span class="mobile-anchor__my-tech__html-bar proficient">Proficient</span>
-                    </li>
-                    <li class="mobile-anchor__my-tech__li">
-                        <p class="mobile-anchor__my-tech__tech">CSS/SASS</p>
-                        <span class="mobile-anchor__my-tech__css-bar proficient">Proficient</span>
-                    </li>
-                    <li class="mobile-anchor__my-tech__li">
-                        <p class="mobile-anchor__my-tech__tech">Javascript</p>
-                        <span class="mobile-anchor__my-tech__javascript-bar proficient">Proficient</span>
-                        <span class="mobile-anchor__my-tech__javascript-tech mobile-anchor__my-tech__sub-tech">Node/Express, React, JQuery</span>
-                    </li>
-                    <li class="mobile-anchor__my-tech__li">
-                        <p class="mobile-anchor__my-tech__tech">Python</p>
-                        <span class="mobile-anchor__my-tech__python-bar intermediate">Intermediate</span>
-                        <span class="mobile-anchor__my-tech__python-tech mobile-anchor__my-tech__sub-tech">Flask</span>
-                    </li>
-                    <li class="mobile-anchor__my-tech__li mobile-anchor__my-tech__database-tech-li">
-                        <p class="mobile-anchor__my-tech__database-tech">Database Technologies</p>
-                        <p class="mobile-anchor__my-tech__database-tech-list">MongoDB, PostgreSQL</p>
-                    </li>
-                </ul>
-            </div>
-            <div class="mobile-anchor__block mobile-anchor__currently-learning">
-                <h2 class="mobile-anchor__currently-learning__header">Currently Learning</h2>
-                <ul class="mobile-anchor__currently-learning__ul">
-                    <li class="mobile-anchor__currently-learning__li">
-                        <p class="mobile-anchor__currently-learning__tech">Python: <span class="small">Improving Coding Skills</span></p>
-                        <span class="mobile-anchor__currently-learning__python-bar">Intermediate</span>
-                        <span class="mobile-anchor__currently-learning__python-tech"></span>
-                    </li>
-                    <!-- <li class="mobile-anchor__currently-learning__li">
-                        <p class="mobile-anchor__currently-learning__tech">C#/.NET/.NET</p>
-                        <span class="mobile-anchor__currently-learning__c-sharp-bar">Novice</span>
-                        <span class="mobile-anchor__currently-learning__c-sharp-tech"></span>
-                    </li> -->
-                </ul>
-                <div class="mobile-anchor__block anchor__links">
-                    <h2 class="mobile-anchor__links__header">Links</h2>
-                    <a href="https://github.com/cjszk" target="__blank" class="mobile-anchor__links__link mobile-anchor__links__github">Github</a>
-                    <a href="https://www.linkedin.com/in/christopher-whiteman-474a89162/" target="__blank" class="mobile-anchor__links__link mobile-anchor__links__linkedin">LinkedIn</a>
-                    <a href="https://codepen.io/cjszk/" target="__blank" class="mobile-anchor__links__link mobile-anchor__links__codepen">Codepen</a>
-                </div>
-            </div>
-        </section>
-
-    <section class="main-container">
-        <div class="about-me">
-            <h3 class="about-me__header">About Me</h3>
-            <p class="about-me__paragraph">
-                <span class="about-me__programmer__header">The Programmer</span>
-                <br/>
-                <span class="about-me__programmer__paragraph">
-                I first began learning how to program with the Python language, tinkering around with it and Pygame.
-                After careful consideration I decided that I wanted to get more into web development, so I specialized more in Javascript for both front-end and back-end.
-                Even as a confident self-taught programmer, I wanted more out of my learning experience and to accelerate it, so I decided to enroll in Thinkful's intensive full-time bootcamp
-                as a way to create the most optimal learning environment for learning to create web applications.
-                I love learning more and more to complement my skillset, and always make it a priority to never stop learning.
-                </span>
-                <br/>
-                <br/>
-                <span class="about-me__personal__header">Outside of Programming</span>
-                <br/>
-                <span class="about-me__personal__paragraph">
-                Aside from my life as a programmer, being a former computer gamer I still like to play games occasionally.
-                More so, after certain events in my life I also developed a passion for health & fitness and enjoy exercise.
-                I can often be found either studying, exercising, gaming or watching youtube videos.
-                I also have a weird interest for learning about what makes people as productive as possible and what gives people the ability to learn as fast as 
-                possible, applying these practices to my own experiences.
-                </span>
+    <section class="projects">
+        <h4 class="projects__header">Projects</h4>
+        <div class="projects__main-project__main-project">
+            <h3 class="projects__main-project__header">RepeatRepeat</h3>
+            <a target="_blank" href="https://compassionate-edison-98c1f8.netlify.com">
+            <img class="projects__main-project__image" src="styles/images/projects/repeatrepeat.jpg" alt="RepeatRepeat">
+            <img class="projects__main-project__image" src="styles/images/projects/repeatrepeat2.jpg" alt="RepeatRepeat">            
+            </a>
+            <p class="projects__main-project__tech">HTML/CSS/JS: React, SASS, Node.js, MongoDB</p>            
+            <p class="projects__main-project__paragraph">
+                Learn any language! Create your own virtual flash cards!
+                RepeatRepeat is powered with an algorithm designed for
+                spaced repetition learning!
+                <br>
+                In this project, I teamed up with Dylan Stratton, a web developer
+                who is particularly talented in web design.
             </p>
         </div>
-        <div class="projects">
-            <div class="projects__project">
-                <h3 class="projects__header">Projects</h3>
-                <div class="projects__flow-tools">
-                    <h4 class="projects__flow-tools__header">Flow Tools</h4>
-                    <a href="https://flow-tools-client.netlify.com" target="__blank"><img class="projects__flow-tools__image" src="../static/images/projects/flow-tools.jpg" alt="Flow Tools"></a>
-                    <p class="projects__flow-tools__description">
-                        Flow tools is my response to a lifestyle of demanded focus and productivity. Designed specifically for busy computer users, Flow tools is
-                        an application that aims to improve the productivity of computer users by providing a simple and quick way to organize task-management
-                        chronologically with notifications for overdue, current and upcoming tasks. Flow tools also provides convenient integrated widgets to maximize productivity.
-                    </p>
-                    <p class="projects__flow-tools__why">
-                        <strong>Why did I make this?</strong> I always have felt the pressure of wanting to learn so much, with so little time. Because
-                        of my unending thirst for knowledge, I've naturally been fascinated with how to accelerate learning. Maximizing productivity is
-                        one key aspect to accelerating learning- this is what I address with Flow Tools- to create an environment that maximizes productivity
-                        for the regular computer user.
-                    </p>
-                    <p class="projects__flow-tools__tech-used">Tech Used: HTML/SASS/JS: React, Node/Express, PostreSQL</p>
-                    <a class="projects__flow-tools__github" target="__blank" href="https://github.com/thinkful-ei19/chris-flowTools">Github Repository</a>                    
-                </div>
+        <div class="projects__catalog">
+            <h3 class="projects__catalog__header">Previous Projects</h3>
+            <div class="projects__catalog__project">
+                <h4 class="projects__catalog__project-title">Flow Tools</h4>            
+                <a target="_blank" href="https://flow-tools-client.netlify.com">
+                    <img class="projects__catalog__image" src="styles/images/projects/flow-tools.jpg" alt="Flow Tools">
+                </a>
             </div>
-            <div class="projects__project">
-                <div class="projects__macronator">
-                    <h4 class="projects__macronator__header">Macronator</h4>
-                    <a href="https://macronator.herokuapp.com" target="__blank"><img class="projects__macronator__image" src="../static/images/projects/macronator.jpg" alt="Macronator"></a>
-                    <p class="projects__macronator__description">
-                        Macronator is a fitness application designed to help individuals with their body composition goals.
-                        The user inputs their weight measurements and calories consumed over certain dates.
-                        The application runs a mathematical formula with all inputted data to calculate the user's total daily energy expenditure and gives
-                        them advice to help them reach their goals. These updated results are the work of multiple data inputted over time by the user.
-                    </p>
-                    <p class="projects__macronator__why">
-                        <strong>Why did I make this?</strong> Many fitness applications calculate a user's 'estimated' energy expenditure, but almost none go as far as to
-                        calculate it accurately based off individual user feedback, despite the fact that we have the scientific understanding of how to calculate 
-                        this. Macronator addresses this issue by using constantly evolving calculations with each user data input.
-                    </p>
-                    <p class="projects__macronator__tech-used">Tech Used: HTML/SASS/JS: JQuery, Node/Express, MongoDB</p>
-                    <a class="projects__macronator__github" target="__blank" href="https://github.com/cjszk/macronator">Github Repository</a>                    
-                </div>
+            <div class="projects__catalog__project">
+                <h4 class="projects__catalog__project-title">Macronator</h4>
+                <a target="_blank" href="https://macronator.herokuapp.com/">
+                    <img class="projects__catalog__image" src="styles/images/projects/macronator.jpg" alt="Macronator">
+                </a>
             </div>
-            <div class="projects__project">
-                <div class="projects__bookmarks">
-                    <h4 class="projects__bookmarks__header">bookmarks</h4>
-                    <a href="https://web-bookmarker.herokuapp.com" target="__blank"><img class="projects__bookmarks__image" src="../static/images/projects/bookmarks.jpg" alt="bookmarks"></a>
-                    <p class="projects__bookmarks__description">
-                        Bookmarks is a web application designed to allow users to publicly display their bookmarked web urls.
-                        Users can publicly add, edit and delete saved URL pages and add descriptions of each bookmarked URL.
-                    </p>
-                    <p class="projects__bookmarks__why">
-                        <strong>Why did I make this?</strong> 
-                        This application was originally my last jQuery application before diving deep into learning other back-end technologies.
-                        It tested my true understanding of making API calls to back-end servers. It marks an important time
-                        in my own personal development as web developer, having become very comfortable with front-end development. Unfortunately, the server-side that hosted
-                        the database for API calls was modified and no longer allowed the application to work. I decided that breathing in new life to this application with
-                        Flask would be the perfect opportunity to learn a new web framework in a different programming language while breathing in new life to one of my old applications.
-                    </p>
-                    <p class="projects__bookmarks__tech-used">Tech Used: HTML/SASS/JS/Python: JQuery, Flask, PostgreSQL</p>
-                    <a class="projects__bookmarks__github" target="__blank" href="https://github.com/cjszk/fullstack-flask-bookmarks">Github Repository</a>                    
-                </div>
+            <div class="projects__catalog__project">
+                <h4 class="projects__catalog__project-title">Bookmarks</h4>            
+                <a target="_blank" href="https://web-bookmarker.herokuapp.com">
+                    <img class="projects__catalog__image" src="styles/images/projects/bookmarks.jpg" alt="Macronator">
+                </a>
             </div>
+
+
+        </div>
+        <div class="projects__current">
+            <h3 class="projects__current__header">Ecko (In Progress)</h3>
+            <p class="projects__current__tech">JS: React Native, Node.js, PostgreSQL</p>                        
+            <p class="projects__current__paragraph">
+                A social networking application where you actually stay anonymous? Is that even possible?
+                Ecko will allow users to message other users in their proximity... anonymously!
+            </p>
+            <img class="projects__current__image" src="styles/images/projects/ecko.jpg">
+            
         </div>
     </section>
-    <script>
-        var host = "www.chris-whiteman.com";
-        if ((host == window.location.host) && (window.location.protocol != "https:")){
-        window.location.protocol = "https";
-        }
-        </script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+    <section class="contact">
+        <h5 class="contact__item">1-360-359-3423</h5>        
+        <h5 class="contact__item">cjszk@hotmail.com</h5>
+        <h5 class="contact__item"></h5>
+        <a class="contact__link" href="https://github.com/cjszk" target="__blank" >Github</a>
+        <a class="contact__link" href="https://www.linkedin.com/in/christopher-whiteman-474a89162/" target="__blank">LinkedIn</a>
+        <a class="contact__link" href="https://codepen.io/cjszk/" target="__blank">Codepen</a>
+    </section>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
   </body>
 </html>
