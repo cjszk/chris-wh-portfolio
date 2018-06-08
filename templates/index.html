@@ -13,68 +13,68 @@
     <link href="https://fonts.googleapis.com/css?family=Baloo|Carter+One|Prosto+One|Secular+One" rel="stylesheet">
 
     <nav class="nav">
-        <a class="nav__button">About Me</a>
-        <a class="nav__button">Projects</a>
-        <a class="nav__button">Contact</a>
+        <a href="#about" class="nav__button">About Me</a>
+        <a href="#projects" class="nav__button">Projects</a>
+        <a href="#contact" class="nav__button">Contact</a>
     </nav>
     <section class="cover">
         <h1 class="cover__name">Christopher Whiteman</h1>
         <h2 class="cover__header">Full Stack Web Development</h2>
         <video class="cover__video" autoplay muted loop>
-            <source src="../static/images//MP4/Hello-World.mp4" type="video/mp4">                
-            <!-- <source src="../static/images//WEBM/City-Nights.webm" type"video/webm"> -->
+            <source src="../static/images/MP4/Hello-World.mp4" type="video/mp4">                
+            <!-- <source src="../static/images/WEBM/City-Nights.webm" type"video/webm"> -->
             Your browser is not supported!
         </video>
     </section>
-    <section class="about">
-        <img class="about__image" src="../static/images//self.jpg">        
+    <section id="about" class="about">
+        <img class="about__image" src="../static/images/self.jpg">        
         <p class="about__first">Full Stack JavaScript and more!</p>
         <p class="about__second">
         I believe in striving to be a "T-shaped" developer: not only a master at one thing,
         but also adept in many other areas. I specialize in full-stack JavaScript, but also have a passion for Python.
         My hobbies outside of programming include reading, exercising and watching youtube videos.
         </p>
+        <div class="skills">
+            <div class="skills__block skills__languages">
+                <h3 class="skills__title">Programming</h3>
+                <ul class="skills__languages__ul">
+                    <li class="skills__languages__li">JavaScript</li>
+                    <li class="skills__languages__li">Python</li>
+                    <li class="skills__languages__li">HTML & CSS</li>
+                </ul>
+            </div>
+            <div class="skills__block skills__front-end-frameworks">
+                <h3 class="skills__title">Front End</h3>
+                <ul class="skills__front-end-frameworks__ul">
+                    <li class="skills__front-end-frameworks__li">React</li>
+                    <li class="skills__front-end-frameworks__li">React Native</li>
+                    <li class="skills__front-end-frameworks__li">jQuery</li>
+                    <li class="skills__front-end-frameworks__li">SASS/SCSS</li>
+                </ul>
+            </div>
+            <div class="skills__block skills__back-end-frameworks">
+                <h3 class="skills__title">Back End</h3>
+                <ul class="skills__back-end-frameworks__ul">
+                    <li class="skills__back-end-frameworks__li">Node.js/Express</li>
+                    <li class="skills__back-end-frameworks__li">Flask</li>
+                </ul>
+            </div>
+            <div class="skills__block skills__database-technologies">
+                <h3 class="skills__title">Databases</h3>
+                <ul class="skills__database-technologies__ul">
+                    <li class="skills__database-technologies__li">PostgreSQL</li>
+                    <li class="skills__database-technologies__li">MongoDB</li>
+                </ul>
+            </div>
+        </div>
     </section>
-    <section class="skills">
-        <div class="skills__block skills__languages">
-            <h3 class="skills__title">Programming</h3>
-            <ul class="skills__languages__ul">
-                <li class="skills__languages__li">JavaScript</li>
-                <li class="skills__languages__li">Python</li>
-                <li class="skills__languages__li">HTML & CSS</li>
-            </ul>
-        </div>
-        <div class="skills__block skills__front-end-frameworks">
-            <h3 class="skills__title">Front End</h3>
-            <ul class="skills__front-end-frameworks__ul">
-                <li class="skills__front-end-frameworks__li">React</li>
-                <li class="skills__front-end-frameworks__li">React Native</li>
-                <li class="skills__front-end-frameworks__li">jQuery</li>
-                <li class="skills__front-end-frameworks__li">SASS/SCSS</li>
-            </ul>
-        </div>
-        <div class="skills__block skills__back-end-frameworks">
-            <h3 class="skills__title">Back End</h3>
-            <ul class="skills__back-end-frameworks__ul">
-                <li class="skills__back-end-frameworks__li">Node.js/Express</li>
-                <li class="skills__back-end-frameworks__li">Flask</li>
-            </ul>
-        </div>
-        <div class="skills__block skills__database-technologies">
-            <h3 class="skills__title">Databases</h3>
-            <ul class="skills__database-technologies__ul">
-                <li class="skills__database-technologies__li">PostgreSQL</li>
-                <li class="skills__database-technologies__li">MongoDB</li>
-            </ul>
-        </div>
-    </section>
-    <section class="projects">
+    <section id="projects" class="projects">
         <h4 class="projects__header">Projects</h4>
         <div class="projects__main-project__main-project">
             <h3 class="projects__main-project__header">RepeatRepeat</h3>
             <a target="_blank" href="https://compassionate-edison-98c1f8.netlify.com">
             <img class="projects__main-project__image" src="../static/images/projects/repeatrepeat.jpg" alt="RepeatRepeat">
-            <img class="projects__main-project__image" src="../static/images//projects/repeatrepeat2.jpg" alt="RepeatRepeat">            
+            <img class="projects__main-project__image" src="../static/images/projects/repeatrepeat2.jpg" alt="RepeatRepeat">            
             </a>
             <p class="projects__main-project__tech">HTML/CSS/JS: React, SASS, Node.js, MongoDB</p>            
             <p class="projects__main-project__paragraph">
@@ -91,19 +91,19 @@
             <div class="projects__catalog__project">
                 <h4 class="projects__catalog__project-title">Flow Tools</h4>            
                 <a target="_blank" href="https://flow-tools-client.netlify.com">
-                    <img class="projects__catalog__image" src="../static/images//projects/flow-tools.jpg" alt="Flow Tools">
+                    <img class="projects__catalog__image" src="../static/images/projects/flow-tools.jpg" alt="Flow Tools">
                 </a>
             </div>
             <div class="projects__catalog__project">
                 <h4 class="projects__catalog__project-title">Macronator</h4>
                 <a target="_blank" href="https://macronator.herokuapp.com/">
-                    <img class="projects__catalog__image" src="../static/images//projects/macronator.jpg" alt="Macronator">
+                    <img class="projects__catalog__image" src="../static/images/projects/macronator.jpg" alt="Macronator">
                 </a>
             </div>
             <div class="projects__catalog__project">
                 <h4 class="projects__catalog__project-title">Bookmarks</h4>            
                 <a target="_blank" href="https://web-bookmarker.herokuapp.com">
-                    <img class="projects__catalog__image" src="../static/images//projects/bookmarks.jpg" alt="Macronator">
+                    <img class="projects__catalog__image" src="../static/images/projects/bookmarks.jpg" alt="Macronator">
                 </a>
             </div>
 
@@ -116,11 +116,11 @@
                 A social networking application where you actually stay anonymous? Is that even possible?
                 Ecko will allow users to message other users in their proximity... anonymously!
             </p>
-            <img class="projects__current__image" src="../static/images//projects/ecko.jpg">
+            <img class="projects__current__image" src="../static/images/projects/ecko.jpg">
             
         </div>
     </section>
-    <section class="contact">
+    <section id="contact" class="contact">
         <h5 class="contact__item">1-360-359-3423</h5>        
         <h5 class="contact__item">cjszk@hotmail.com</h5>
         <h5 class="contact__item"></h5>
