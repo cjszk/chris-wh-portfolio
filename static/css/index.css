@@ -190,6 +190,11 @@ ul {
       font-size: 1.6rem;
       padding: 1rem;
       width: 70%; }
+  .projects__link {
+    display: block;
+    font-size: 1.8rem;
+    margin: 0 5rem 0 0;
+    color: #882601; }
 
 .contact {
   font-family: 'Secular One', sans-serif;
